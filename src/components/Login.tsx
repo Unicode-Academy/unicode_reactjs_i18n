@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 export default function Login() {
-  const { t, i18n } = useTranslation();
-  i18n.changeLanguage("vi");
+  const { t } = useTranslation();
+
   return (
     <div>
       <h1>{t("login.title")}</h1>
