@@ -1,0 +1,9 @@
+{
+  "login": {
+    "title": "Đăng nhập",
+    "description": "Vui lòng đăng nhập để tiếp tục",
+    "email": "Địa chỉ email",
+    "password": "Mật khẩu",
+    "btn": "Đăng nhập"
+  }
+}
