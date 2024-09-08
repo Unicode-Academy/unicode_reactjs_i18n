@@ -1,0 +1,18 @@
+{
+  "translations-vi": {
+    "login.title": "Đăng nhập",
+    "login.description": "Vui lòng đăng nhập để tiếp tục",
+    "login.email": "Địa chỉ email",
+    "login.password": "Mật khẩu",
+    "login.btn": "Đăng nhập",
+    "required": "bắt buộc phải nhập"
+  },
+  "translations-en": {
+    "login.title": "Login",
+    "login.description": "Please login to continue",
+    "login.email": "Email Address",
+    "login.password": "Password",
+    "login.btn": "Login",
+    "required": "is required"
+  }
+}

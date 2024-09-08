@@ -1,0 +1,10 @@
+{
+  "login": {
+    "title": "Login",
+    "description": "Please login to continue",
+    "email": "Email Address",
+    "password": "Password",
+    "btn": "Login"
+  },
+  "required": "is required"
+}
