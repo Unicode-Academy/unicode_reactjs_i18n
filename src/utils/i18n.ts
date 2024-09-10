@@ -46,10 +46,11 @@ i18n
     // lng: "vi",
     detection: options,
     fallbackLng: "vi",
+    ns: ["auth", "common"],
+    defaultNS: "common",
     backend: {
-      loadPath: "http://localhost:3000/translations-{{lng}}",
+      loadPath: "http://localhost:3000/translations-{{lng}}-{{ns}}",
     },
-
     interpolation: {
       escapeValue: false, // react already safes from xss
     },

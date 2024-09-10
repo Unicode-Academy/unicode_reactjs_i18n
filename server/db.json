@@ -1,18 +1,36 @@
 {
-  "translations-vi": {
-    "login.title": "Đăng nhập",
-    "login.description": "Vui lòng đăng nhập để tiếp tục",
-    "login.email": "Địa chỉ email",
-    "login.password": "Mật khẩu",
-    "login.btn": "Đăng nhập",
-    "required": "bắt buộc phải nhập"
+  "translations-vi-common": {
+    "page_title": "Unicode Academy"
   },
-  "translations-en": {
-    "login.title": "Login",
-    "login.description": "Please login to continue",
-    "login.email": "Email Address",
-    "login.password": "Password",
-    "login.btn": "Login",
-    "required": "is required"
+  "translations-en-common": {
+    "page_title": "Học viện Unicode"
+  },
+  "translations-vi-auth": {
+    "login": {
+      "title": "Đăng nhập",
+      "description": "Vui lòng đăng nhập để tiếp tục",
+      "email": "Địa chỉ email",
+      "password": "Mật khẩu",
+      "btn": "Đăng nhập"
+    },
+    "required": "Trường {{field}} bắt buộc phải nhập",
+    "attributes": {
+      "email": "Email",
+      "password": "Mật khẩu"
+    }
+  },
+  "translations-en-auth": {
+    "login": {
+      "title": "Login",
+      "description": "Please login to continue",
+      "email": "Email Address",
+      "password": "Password",
+      "btn": "Login"
+    },
+    "required": "Field {{field}} is required",
+    "attributes": {
+      "email": "Email",
+      "password": "Password"
+    }
   }
 }

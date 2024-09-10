@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 export default function Login() {
-  const { t } = useTranslation();
+  const { t } = useTranslation("auth");
 
   const [form, setForm] = useState<{ email: string; password: string }>(
     {} as { email: string; password: string }
@@ -16,11 +16,17 @@ export default function Login() {
       email: string;
       password: string;
     };
+
     if (!form.email) {
-      errors.email = `Email ${t("required")}`;
+      errors.email = t("required", {
+        field: t("attributes.email"),
+      });
     }
+
     if (!form.password) {
-      errors.password = `Password ${t("required")}`;
+      errors.password = t("required", {
+        field: t("attributes.password"),
+      });
     }
 
     setMsg(errors);
@@ -54,7 +60,7 @@ export default function Login() {
               setForm({ ...form, [e.target.name]: e.target.value })
             }
           />
-          {msg.email && <p className="error">{msg.email}</p>}
+          {msg.password && <p className="error">{msg.password}</p>}
         </div>
         <button>{t("login.btn")}</button>
       </form>
